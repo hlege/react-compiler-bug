@@ -15,7 +15,7 @@ If a nested method shorthand syntax is used in a component that returns an arrow
 
 ## The Problem
 
-The `returnsNonNode(...)` ffunction detects the return type of nested functions incorrectly, causing the compiler to mistakenly interpret them as non-Component functions.
+The `returnsNonNode(...)` function detects the return type of nested functions incorrectly, causing the compiler to mistakenly interpret them as non-Component functions.
 
 [Link for code](https://github.com/facebook/react/blob/7b7fac073d1473df839a1caf8d0444c32bf4de49/compiler/packages/babel-plugin-react-compiler/src/Entrypoint/Program.ts#L968)
 
