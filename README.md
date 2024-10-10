@@ -11,7 +11,7 @@ node ./index.js
 
 ## Description
 
-Using method shorthand syntax can prevent React's compiler optimizations. However, when an arrow function is used, the optimizations work correctly.
+If a nested method shorthand syntax is used in a component that returns an arrow function, it will prevent React's compiler optimizations. However, if the arrow function is used directly, the optimizations work as expected.
 
 ## The Problem
 
