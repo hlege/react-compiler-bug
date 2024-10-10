@@ -31,4 +31,4 @@ const res = babel.transformSync(code, {
   ],
 });
 
-console.log(res);
+console.log(res.code);
